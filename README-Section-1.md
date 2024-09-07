@@ -7,23 +7,15 @@ This section covers the fundamentals of creating a basic JavaScript runtime usin
 
 1. **Cargo.toml**: Project configuration and dependencies
 2. **src/main.rs**: Main Rust file implementing the JS runtime
-3. **src/runtime.js**: JavaScript file defining custom console functions
-4. **example.js**: Example JavaScript file to run in our custom runtime
+3. **example.js**: Example JavaScript file to run in our custom runtime
 
 
 ## Setup Instructions
 
 1. Install Rust and Cargo
 2. Create a new Rust project: `cargo init myjs`
-3. Add dependencies to `Cargo.toml`:
-   ```toml
-   [dependencies]
-   deno_core = "0.221.0"
-   tokio = { version = "1.32.0", features = ["full"] }
-   ```
-4. Implement the runtime in `src/main.rs`
-5. Create custom console functions in `src/runtime.js`
-6. Create an example JavaScript file `example.js`
+3. Implement the runtime in `src/main.rs`
+4. Create an example JavaScript file `example.js`
 
 ## Running the Runtime
 
