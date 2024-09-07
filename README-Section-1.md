@@ -10,9 +10,6 @@ This section covers the fundamentals of creating a basic JavaScript runtime usin
 3. **src/runtime.js**: JavaScript file defining custom console functions
 4. **example.js**: Example JavaScript file to run in our custom runtime
 
-## Custom Functionality
-
-We've implemented a `console.sarcasm()` function that adds a timestamp and a random sarcastic message to each log.
 
 ## Setup Instructions
 
