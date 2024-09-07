@@ -34,8 +34,4 @@ cargo run
 
 This will build the project and run the `example.js` file using our custom runtime.
 
-## Next Steps
 
-- Experiment with adding more custom console functions
-- Try running different JavaScript code in `example.js`
-- Explore the Deno core documentation for more advanced features
